@@ -55,7 +55,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.setConfigurableReadOnlyAccessor;
+})();
 })();
 </script>
 ```
@@ -110,6 +112,7 @@ obj.foo = 'boop';
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-configurable-read-only-accessor@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 function Foo( name ) {
     if ( !(this instanceof Foo) ) {
@@ -131,6 +134,7 @@ try {
     console.error( err.message );
 }
 
+})();
 })();
 </script>
 </body>
@@ -223,15 +227,15 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/utils/define-configurable-read-only-property]: https://github.com/stdlib-js/utils-define-configurable-read-only-property/tree/umd
+[@stdlib/utils/define-configurable-read-only-property]: https://github.com/stdlib-js/utils-define-configurable-read-only-property/tree/umd/tree/umd
 
-[@stdlib/utils/define-configurable-read-write-accessor]: https://github.com/stdlib-js/utils-define-configurable-read-write-accessor/tree/umd
+[@stdlib/utils/define-configurable-read-write-accessor]: https://github.com/stdlib-js/utils-define-configurable-read-write-accessor/tree/umd/tree/umd
 
-[@stdlib/utils/define-configurable-write-only-accessor]: https://github.com/stdlib-js/utils-define-configurable-write-only-accessor/tree/umd
+[@stdlib/utils/define-configurable-write-only-accessor]: https://github.com/stdlib-js/utils-define-configurable-write-only-accessor/tree/umd/tree/umd
 
-[@stdlib/utils/define-property]: https://github.com/stdlib-js/utils-define-property/tree/umd
+[@stdlib/utils/define-property]: https://github.com/stdlib-js/utils-define-property/tree/umd/tree/umd
 
-[@stdlib/utils/define-read-only-accessor]: https://github.com/stdlib-js/utils-define-read-only-accessor/tree/umd
+[@stdlib/utils/define-read-only-accessor]: https://github.com/stdlib-js/utils-define-read-only-accessor/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
