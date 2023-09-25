@@ -44,7 +44,7 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
-import setConfigurableReadOnlyAccessor from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-configurable-read-only-accessor@esm/index.mjs';
+import setConfigurableReadOnlyAccessor from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-configurable-read-only-accessor@v0.1.0-esm/index.mjs';
 ```
 
 #### setConfigurableReadOnlyAccessor( obj, prop, getter )
@@ -96,7 +96,7 @@ obj.foo = 'boop';
 <body>
 <script type="module">
 
-import setConfigurableReadOnlyAccessor from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-configurable-read-only-accessor@esm/index.mjs';
+import setConfigurableReadOnlyAccessor from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-configurable-read-only-accessor@v0.1.0-esm/index.mjs';
 
 function Foo( name ) {
     if ( !(this instanceof Foo) ) {
