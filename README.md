@@ -44,6 +44,11 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
+import setConfigurableReadOnlyAccessor from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-configurable-read-only-accessor@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-define-configurable-read-only-accessor/tags). For example,
+
+```javascript
 import setConfigurableReadOnlyAccessor from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-configurable-read-only-accessor@v0.1.0-esm/index.mjs';
 ```
 
@@ -96,7 +101,7 @@ obj.foo = 'boop';
 <body>
 <script type="module">
 
-import setConfigurableReadOnlyAccessor from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-configurable-read-only-accessor@v0.1.0-esm/index.mjs';
+import setConfigurableReadOnlyAccessor from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-configurable-read-only-accessor@esm/index.mjs';
 
 function Foo( name ) {
     if ( !(this instanceof Foo) ) {
