@@ -44,7 +44,7 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
-import setConfigurableReadOnlyAccessor from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-configurable-read-only-accessor@deno/mod.js';
+import setConfigurableReadOnlyAccessor from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-configurable-read-only-accessor@v0.2.0-deno/mod.js';
 ```
 
 #### setConfigurableReadOnlyAccessor( obj, prop, getter )
@@ -91,7 +91,7 @@ obj.foo = 'boop';
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import setConfigurableReadOnlyAccessor from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-configurable-read-only-accessor@deno/mod.js';
+import setConfigurableReadOnlyAccessor from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-configurable-read-only-accessor@v0.2.0-deno/mod.js';
 
 function Foo( name ) {
     if ( !(this instanceof Foo) ) {
